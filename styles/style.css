@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: AvenirMedium;
-  src: url(fonts/Avenir-medium.ttf);
+  src: url(../font/Avenir-medium.ttf);
 }
 
 @font-face {
@@ -352,45 +352,117 @@ body.dark .home .text {
   color: var(--text-color);
 }
 
-/* Code van Lisa */
+/*  Code van Lisa  */
 
-* {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+main {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
-.leeslijst {
+h1 {
+  font-family: avenirMedium;
+  color: var(--text-color);
+  font-size: 4em;
+}
+
+.buttongroup {
+    display: flex;
+    flex-direction: row;
+}
+
+.search {
+  background-color: transparent;
+  color: var(--text-color);
+  padding: 0rem;
+  font-size: 1.2rem;
+  translate: 0% 15%;
+}
+
+.search:hover {
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+.filters {
+  background-color: var(--primary-color-light);
   color: var(--text-color);
 }
 
-.leeslijst h1 {
-  width: 90%;
-  font-size: 3rem;
-  padding: 1rem;
-  padding-left: 2.5rem;
-}
-
-h2 {
-  font-size: 1.6rem;
-  padding-top: 0.75rem;
-  padding-left: 1.5rem;
-}
-
-.lijsten {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.lijstje {
-  width: 90%;
-  height: 8rem;
-  background-color: var(--sidebar-color);
-  margin-bottom: 2rem;
-}
-
-.lijstje:hover {
-  border-radius: 6px;
-  color: var(--primary-color-light);
+button {
+  border: none;
   background-color: var(--primary-color);
+  color: var(--primary-color-light);
+  font-size: 0.8rem;
+  font-family: AvenirRoman;
+  border-radius: 6px;
+  padding: 0.5rem;
+  margin: 0.2rem;
+}
+
+button:hover {
+  background-color: var(--primary-color-light);
+  color: var(--primary-color);
+  transition: var(--tran-03);
+}
+
+dl {
+  margin-top: 0.75rem;
+  padding: 0.5rem;
+  color: var(--text-color);
+  background-color: var(--sidebar-color);
+  border-radius: 6px;
+}
+
+dt {
+  padding: 0.3rem;
+}
+
+dd { 
+  padding: 0.5rem;
+}
+
+
+
+@media only screen and (min-width: 200px) {
+
+    h1 {
+        font-size: 1.6rem;
+    }
+
+    main {
+      font-size: 0.8rem;
+    }
+
+}
+
+@media only screen and (min-width: 480px) {
+
+ h1 {
+  font-size: 2rem;
+ }
+
+ main {
+  font-size: 1rem;
+ }
+
+}
+
+@media only screen and (min-width: 767px) {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  main {
+    font-size: 1.3rem;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 1280px) {
+
 }
