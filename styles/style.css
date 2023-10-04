@@ -358,14 +358,24 @@ Code van Lisa
 
 */
 
-.text h1 img {
-  margin-left: -2rem;
+main header {
+  margin-left: 2rem;
+}
+
+main header img {
+  width: 80px;
+  margin-top: 2rem;
 }
 
 h1 {
   font-family: avenirMedium;
   color: var(--text-color);
   font-size: 4em;
+}
+
+.buttons {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
 }
 
 .search {
@@ -403,26 +413,29 @@ button:hover {
   transition: var(--tran-03);
 }
 
-.descriptionlist {
-  padding-left: 1.75rem;
-  padding-right: 1.75rem;
-}
+/* Lijst met overzicht van diensten */
 
-dl {
-  margin-top: 0.75rem;
-  padding: 0.5rem;
-  color: var(--text-color);
+.overzicht {
+  margin-left: 2rem;
+  margin-right: 2rem;
   background-color: var(--sidebar-color);
-  border-radius: 6px;
+  flex-wrap: wrap;
+  list-style: none;
+  border-radius: 10px;
+  padding: 1rem;
 }
 
-dt {
-  padding: 0.3rem;
+li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
-dd {
-  padding: 0.5rem;
+img {
+  width: 130px;
 }
+
+/* media query*/
 
 @media only screen and (min-width: 200px) {
   h1 {
@@ -443,6 +456,10 @@ dd {
 @media only screen and (min-width: 767px) {
   h1 {
     font-size: 3rem;
+  }
+
+  main header img {
+    width: 100px;
   }
 }
 
