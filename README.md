@@ -2,7 +2,13 @@
 Ontwerp en maak een interactieve website voor een opdrachtgever.
 
 ## User Story
-> Als oba-lid wil ik op de website persoonlijke boekentips krijgen, zodat ik gestimuleerd wordt meer te lezen.
+> Familieoverzicht abonnementen ontwerpen en ontwikkelen. Toon in een overzicht alle abonnementen van een familie met een verwijzing naar een indiviueel profiel van elk familielid.
+
+Functies:
+Beschikbare diensten
+Laatst geleende boeken
+In te leveren boeken om boete te voorkomen
+
 
 ## Beschrijving
 In deze sprint staat het maken van een interactieve website centraal. Voor deze opdracht kies je een user Story waarin een gebruiker iets moet doen, zoals het toevoegen van informatie aan een agenda of stap voor stap door een vragenlijst klikken, een chat-formulier of bijvoorbeeld een filter systeem. Als een gebruiker interactie heeft met een systeem, moet je goede feedback/feedforward ontwerpen en maken. Zo weet een gebruiker wat die kan verwachten en of de actie gelukt is.
