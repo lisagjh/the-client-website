@@ -419,8 +419,7 @@ input {
 /* buttons */
 
 .buttons {
-  margin-left: 2rem;
-  margin-bottom: 2rem;
+  margin: 0rem 0.5rem 0.5rem 2rem;
 }
 
 .filters {
@@ -453,8 +452,22 @@ button:active {
 /* Lijst met overzicht van diensten */
 
 ul h2 {
+  color: var(--text-color);
   margin-bottom: 1rem;
-  padding-left: 1.5rem;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+ul h3:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--primary-color);
+}
+
+ul a:visited {
+  text-decoration: none;
+  color: var(--black);
 }
 
 .lijst-container {
@@ -468,7 +481,7 @@ ul h2 {
   border-radius: 10px;
   width: 90%;
   padding: 1rem;
-  margin: 0.5rem;
+  margin: 0.5rem 0.75rem 0rem 0rem;
   list-style: none;
 }
 
@@ -482,7 +495,7 @@ ul h2 {
   border-radius: 10px;
   width: 90%;
   padding: 1rem;
-  margin: 0.5rem;
+  margin: 0.5rem 0.75rem 0rem 0rem;
   list-style: none;
 }
 
@@ -504,27 +517,10 @@ li img {
   margin: 0.5rem;
 }
 
-ul h2 {
-  color: var(--text-color);
-}
-
-ul a {
-  text-decoration: none;
-}
-
-ul a h3:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--primary-color);
-}
-
-ul a:visited {
-  text-decoration: none;
-  color: var(--black);
-}
-
 /* media query*/
 
 @media only screen and (min-width: 200px) {
+  
   h1 {
     font-size: 1.5rem;
   }
@@ -535,12 +531,14 @@ ul a:visited {
 }
 
 @media only screen and (min-width: 480px) {
+  
   h1 {
     font-size: 2rem;
   }
 }
 
 @media only screen and (min-width: 620px) {
+  
   .dienst-overzicht li {
     display: flex;
     flex-direction: row;
@@ -555,6 +553,7 @@ ul a:visited {
 }
 
 @media only screen and (min-width: 767px) {
+  
   h1 {
     font-size: 3rem;
   }
@@ -578,7 +577,8 @@ ul a:visited {
   }
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px){
+
   .lijst-container {
     flex-direction: row;
   }
@@ -596,5 +596,6 @@ ul a:visited {
   }
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px){
+
 }
