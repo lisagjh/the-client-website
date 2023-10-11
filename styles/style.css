@@ -390,7 +390,6 @@ h1 {
 }
 
 form {
-  width: 90%;
   border: 1px var(--text-color) solid;
   border-radius: 6px;
   padding: 0.2rem;
@@ -445,8 +444,8 @@ button:hover {
 }
 
 button:active {
-  background-color: var(--sidebar-color);
-  color: var(--text-color);
+  color: var(--primary-color);
+  background-color: var(--primary-color-light);
 }
 
 /* Lijst met overzicht van diensten */
@@ -511,16 +510,38 @@ main li {
 }
 
 li img {
-  width: 130px;
-  height: 130px;
+  max-width: 100px;
+  height: 100px;
   border-radius: 3px;
   margin: 0.5rem;
 }
 
-/* media query*/
+.more-info {
+  float: right;
+  color: var(--primary-color);
+  font-size: 0.8rem;
+  margin-top: -1.5rem;
+}
+
+.more-info:hover {
+  text-decoration: underline;
+}
+
+.bx-right-arrow-alt {
+  font-size: 1rem;
+  translate: 0% 14%;
+}
+
+/* .bx-right-arrow-alt {
+  font-size: 0.9rem;
+  translate: 0% 3%;
+} */
+
+/* 
+media query
+*/
 
 @media only screen and (min-width: 200px) {
-  
   h1 {
     font-size: 1.5rem;
   }
@@ -531,14 +552,12 @@ li img {
 }
 
 @media only screen and (min-width: 480px) {
-  
   h1 {
     font-size: 2rem;
   }
 }
 
 @media only screen and (min-width: 620px) {
-  
   .dienst-overzicht li {
     display: flex;
     flex-direction: row;
@@ -553,7 +572,6 @@ li img {
 }
 
 @media only screen and (min-width: 767px) {
-  
   h1 {
     font-size: 3rem;
   }
@@ -577,8 +595,7 @@ li img {
   }
 }
 
-@media only screen and (min-width: 1024px){
-
+@media only screen and (min-width: 1024px) {
   .lijst-container {
     flex-direction: row;
   }
@@ -596,6 +613,5 @@ li img {
   }
 }
 
-@media only screen and (min-width: 1280px){
-
+@media only screen and (min-width: 1280px) {
 }
