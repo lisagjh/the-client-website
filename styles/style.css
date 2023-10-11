@@ -459,11 +459,6 @@ ul a {
   text-decoration: none;
 }
 
-ul h3:hover {
-  text-decoration: underline;
-  text-decoration-color: var(--primary-color);
-}
-
 ul a:visited {
   text-decoration: none;
   color: var(--black);
@@ -517,7 +512,7 @@ li img {
 }
 
 .more-info {
-  float: right;
+  text-align: right;
   color: var(--primary-color);
   font-size: 0.8rem;
   margin-top: -1.5rem;
