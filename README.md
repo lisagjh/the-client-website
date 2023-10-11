@@ -17,6 +17,11 @@ https://amberhva.github.io/fix-the-flow-interactive-website/
 We hebben binnen onze squad de taken verdeeld. Iedereen heeft een eigen pagina gemaakt. We hebben deze samengevoegd door bepaalde links in de navbar werkend te maken. Ik heb de pagina met beschikbare diensten en producten gemaakt. 
 
 ![Screenshot 2023-10-11 at 10-13-28 Mijn OBA - Diensten en Producten](https://github.com/lisagjh/the-client-website/assets/131701505/1c4b7576-ac3e-483e-a4cf-216374c0bb5b)
+
+
+![Screenshot 2023-10-11 at 11-22-05 Mijn OBA - Diensten en Producten](https://github.com/lisagjh/the-client-website/assets/131701505/0ad106c4-a5f4-49bf-a4a7-f59597d40b64)
+
+
 Live website: https://lisagjh.github.io/the-client-website/
 
 
