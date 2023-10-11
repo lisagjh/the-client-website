@@ -21,7 +21,7 @@ Live website: https://lisagjh.github.io/the-client-website/
 
 
 ### Backlog
-Ik zou graag nog een aantal dingen willen toevoegen, maar voor een aantal van deze dingen heb ik nog niet de juiste kennis. Ik zou graag een zoekbalk toevoegen, een uitvouwend filter menu waar je verschillende filters kan selecteren, en iets om een product/dienst aan een soort favoriete lijst toe te voegen. 
+Er zijn nog een aantal dingen die ik nog moet fixen of wil toevoegen. Zo werkt de dark mode momenteel niet echt meer. Ik zou nog een zoekbalk, een filter menu en een knopje waar bij je een product/dienst kan toevoegen aan een favoriete lijst toevoegen.
 
 ### Debriefing
 Op de eerste dag van de sprint hebben we een briefing gehouden met Mark, ons contactpersoon van de OBA. Hier vind je meer informatie over in mijn wiki, via deze link: https://github.com/lisagjh/the-client-website/wiki/Debriefing .
