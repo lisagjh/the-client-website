@@ -374,7 +374,7 @@ h1 {
   font-size: 4em;
 }
 
-/* search bar */
+/* search  */
 
 .search {
   color: var(--text-color);
@@ -418,7 +418,7 @@ input {
 /* buttons */
 
 .buttons {
-  margin: 0rem 0.5rem 0.5rem 2rem;
+  margin: 0rem 0.4rem 0.4rem 2rem;
 }
 
 .filters {
@@ -428,7 +428,7 @@ input {
 
 button {
   color: var(--primary-color-light);
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   font-family: AvenirRoman;
   background-color: var(--primary-color);
   border: none;
@@ -527,10 +527,42 @@ li img {
   translate: 0% 14%;
 }
 
-/* .bx-right-arrow-alt {
-  font-size: 0.9rem;
-  translate: 0% 3%;
-} */
+
+/* 
+404 not found page
+*/
+
+.error-page {
+  background-color: var(--sidebar-color);
+  border-radius: 10px;
+  width: 90%;
+  padding: 5rem 1rem 5rem 1rem;
+  margin: 1rem 0rem 0rem 2rem;
+  text-align: center;
+}
+
+.error-page h2 {
+  color: var(--text-color);
+  font-size: 3rem;
+}
+
+.error-page p {
+  color: var(--text-color);
+  font-size: 1.2rem;
+}
+
+.error-page a {
+  color: var(--primary-color);
+}
+
+.error-page a:visited {
+  color: var(--primary-color);
+}
+
+.bx-sad {
+  color: var(--primary-color);
+  font-size: 13rem;
+}
 
 /* 
 media query
@@ -541,9 +573,6 @@ media query
     font-size: 1.5rem;
   }
 
-  button {
-    font-size: 0.7rem;
-  }
 }
 
 @media only screen and (min-width: 480px) {
