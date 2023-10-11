@@ -537,7 +537,7 @@ li img {
   border-radius: 10px;
   width: 90%;
   padding: 5rem 1rem 5rem 1rem;
-  margin: 1rem 0rem 0rem 2rem;
+  margin: 1rem 0 0 2rem;
   text-align: center;
 }
 
@@ -559,7 +559,7 @@ li img {
   color: var(--primary-color);
 }
 
-.bx-sad {
+.bx-confused {
   color: var(--primary-color);
   font-size: 13rem;
 }
