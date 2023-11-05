@@ -262,9 +262,11 @@ body.dark .sidebar li a:hover .text {
   justify-content: space-between;
   overflow-y: scroll;
 }
+
 .menu-bar::-webkit-scrollbar {
   display: none;
 }
+
 .sidebar .menu-bar .mode {
   border-radius: 6px;
   background-color: var(--primary-color-light);
@@ -527,7 +529,6 @@ li img {
   translate: 0% 14%;
 }
 
-
 /* 
 404 not found page
 */
@@ -572,7 +573,6 @@ media query
   h1 {
     font-size: 1.5rem;
   }
-
 }
 
 @media only screen and (min-width: 480px) {
